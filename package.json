@@ -4,9 +4,9 @@
   "description": "Leet Code Algorithm challenges",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "TZ=America/Los_Angeles jest --coverage",
     "start": "source ./config/local.sh",
-    "deploy": "source ./config/deploy.sh" 
+    "deploy": "source ./config/deploy.sh"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/kctolli/Algorithms/issues"
   },
-  "homepage": "https://github.com/kctolli/Algorithms#readme"
+  "homepage": "https://github.com/kctolli/Algorithms#readme",
+  "dependencies": {
+    "jest": "^28.1.3"
+  }
 }
