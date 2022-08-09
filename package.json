@@ -4,7 +4,7 @@
   "description": "Leet Code Algorithm challenges",
   "main": "index.js",
   "scripts": {
-    "test": "TZ=America/Los_Angeles jest --coverage",
+    "test": "jest --coverage",
     "start": "source ./config/local.sh",
     "deploy": "source ./config/deploy.sh"
   },
