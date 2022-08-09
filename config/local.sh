@@ -1,0 +1,5 @@
+#!/bin/bash
+cwd=$(pwd)
+open http://localhost:8000
+python3 -m http.server 
+cd $cwd

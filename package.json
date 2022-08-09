@@ -1,0 +1,21 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "Leet Code Algorithm challenges",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "source ./config/local.sh",
+    "deploy": "source ./config/deploy.sh" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kctolli/Algorithms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kctolli/Algorithms/issues"
+  },
+  "homepage": "https://github.com/kctolli/Algorithms#readme"
+}
