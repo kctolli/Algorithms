@@ -1,5 +1,5 @@
 const { expect } = require('@jest/globals');
-const romanToInt = require('./RomanToInt.js');
+const romanToInt = require('./romanToInt.js');
 
 describe('romanToInt', () => {
 
