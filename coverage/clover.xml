@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1660158651459" clover="3.2.0">
-  <project timestamp="1660158651459" name="All files">
-    <metrics statements="79" coveredstatements="65" conditionals="34" coveredconditionals="28" methods="12" coveredmethods="11" elements="125" coveredelements="104" complexity="0" loc="79" ncloc="79" packages="1" files="8" classes="8"/>
+<coverage generated="1660159139370" clover="3.2.0">
+  <project timestamp="1660159139370" name="All files">
+    <metrics statements="79" coveredstatements="79" conditionals="34" coveredconditionals="34" methods="12" coveredmethods="12" elements="125" coveredelements="125" complexity="0" loc="79" ncloc="79" packages="1" files="8" classes="8"/>
     <file name="containsDuplicate.js" path="/home/ktolliver/Algorithms/containsDuplicate.js">
       <metrics statements="12" coveredstatements="12" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
       <line num="5" count="1" type="stmt"/>
@@ -66,22 +66,22 @@
       <line num="14" count="1" type="stmt"/>
     </file>
     <file name="romanToInt.js" path="/home/ktolliver/Algorithms/romanToInt.js">
-      <metrics statements="18" coveredstatements="4" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <metrics statements="18" coveredstatements="18" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
       <line num="5" count="1" type="stmt"/>
-      <line num="6" count="0" type="stmt"/>
-      <line num="7" count="0" type="stmt"/>
-      <line num="8" count="0" type="stmt"/>
-      <line num="9" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="10" count="0" type="stmt"/>
-      <line num="11" count="0" type="stmt"/>
-      <line num="13" count="0" type="stmt"/>
-      <line num="14" count="0" type="stmt"/>
-      <line num="15" count="0" type="cond" truecount="0" falsecount="4"/>
-      <line num="16" count="0" type="stmt"/>
-      <line num="17" count="0" type="stmt"/>
-      <line num="18" count="0" type="stmt"/>
-      <line num="20" count="0" type="stmt"/>
-      <line num="23" count="0" type="stmt"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="7" count="3" type="stmt"/>
+      <line num="8" count="3" type="stmt"/>
+      <line num="9" count="15" type="cond" truecount="2" falsecount="0"/>
+      <line num="10" count="3" type="stmt"/>
+      <line num="11" count="3" type="stmt"/>
+      <line num="13" count="12" type="stmt"/>
+      <line num="14" count="12" type="stmt"/>
+      <line num="15" count="12" type="cond" truecount="4" falsecount="0"/>
+      <line num="16" count="3" type="stmt"/>
+      <line num="17" count="3" type="stmt"/>
+      <line num="18" count="3" type="stmt"/>
+      <line num="20" count="9" type="stmt"/>
+      <line num="23" count="3" type="stmt"/>
       <line num="37" count="1" type="stmt"/>
       <line num="47" count="1" type="stmt"/>
       <line num="53" count="1" type="stmt"/>

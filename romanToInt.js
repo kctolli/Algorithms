@@ -23,7 +23,7 @@ var romanToInt = function(s) {
     return total;
 };
 
-/**
+/** Map
  * Symbol       Value
  * I             1
  * V             5
@@ -50,4 +50,4 @@ const subtractionMapper = {
     C: ["D", "M"],
 }
 
-module.export = romanToInt;
+module.exports = {romanToInt};
