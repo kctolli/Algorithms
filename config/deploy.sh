@@ -1,6 +1,6 @@
 #!/bin/bash
 # Jest test
-#npm run test
+npm run test
 
 # Git Update
 git pull 

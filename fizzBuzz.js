@@ -1,8 +1,8 @@
-/**
+/** https://leetcode.com/problems/fizz-buzz/
  * @param {number} n
  * @return {string[]}
  */
- var fizzBuzz = function(n) {
+var fizzBuzz = function(n) {
     let array = [];
     for (let i = 1; i <= n; i++) {
         let divisibleBy3 = ((i % 3) === 0);
