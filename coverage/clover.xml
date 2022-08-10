@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1660114489215" clover="3.2.0">
-  <project timestamp="1660114489215" name="All files">
-    <metrics statements="57" coveredstatements="57" conditionals="26" coveredconditionals="26" methods="10" coveredmethods="10" elements="93" coveredelements="93" complexity="0" loc="57" ncloc="57" packages="1" files="6" classes="6"/>
+<coverage generated="1660117298112" clover="3.2.0">
+  <project timestamp="1660117298112" name="All files">
+    <metrics statements="61" coveredstatements="61" conditionals="28" coveredconditionals="28" methods="11" coveredmethods="11" elements="100" coveredelements="100" complexity="0" loc="61" ncloc="61" packages="1" files="7" classes="7"/>
     <file name="containsDuplicate.js" path="/Users/kctolli/Algorithms/containsDuplicate.js">
       <metrics statements="12" coveredstatements="12" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
       <line num="5" count="1" type="stmt"/>
@@ -33,6 +33,13 @@
       <line num="18" count="13" type="stmt"/>
       <line num="21" count="3" type="stmt"/>
       <line num="24" count="1" type="stmt"/>
+    </file>
+    <file name="palindrome.js" path="/Users/kctolli/Algorithms/palindrome.js">
+      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="3" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
     </file>
     <file name="removeDuplicates.js" path="/Users/kctolli/Algorithms/removeDuplicates.js">
       <metrics statements="12" coveredstatements="12" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
