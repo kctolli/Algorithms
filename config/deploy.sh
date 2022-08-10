@@ -2,6 +2,8 @@
 # Jest test
 npm run test
 
+echo ""
+
 # Git Update
 git pull 
 git add . 
