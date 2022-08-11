@@ -3,10 +3,10 @@
  * @return {string}
  */
 var longestCommonPrefix = function(strs) {
-    if (strs.length == 1) return strs[0];
+    if (strs.length === 1) return strs[0];
     let longestPre = '';
     const strsByLen = strs.sort((a,b) => a.length - b.length );
-    const shortestWord = strsByLen[0]
+    const shortestWord = strsByLen[0];
     for (let j = 0; j < shortestWord.length; j++){
         let currLetterInShortestWord = shortestWord[j];
         let isInEveryWord = true;
@@ -22,7 +22,7 @@ var longestCommonPrefix = function(strs) {
             break;
         }
     }
-    return longestPre
+    return longestPre;
 };
 
 module.exports = longestCommonPrefix;

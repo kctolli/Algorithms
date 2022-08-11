@@ -1,5 +1,5 @@
 const { expect } = require('@jest/globals');
-const longestCommonPrefix = require('./containsDuplicate.js');
+const longestCommonPrefix = require('./longestCommonPrefix.js');
 
 describe('longestCommonPrefix', () => {
 
@@ -13,5 +13,9 @@ describe('longestCommonPrefix', () => {
 
     test('test case 3', () => { 
         expect(longestCommonPrefix(["dog"])).toEqual("dog");
+    });
+
+    test('test case 4', () => { 
+        expect(longestCommonPrefix([""])).toEqual("");
     });
 });
