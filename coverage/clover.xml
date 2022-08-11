@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1660245830018" clover="3.2.0">
-  <project timestamp="1660245830018" name="All files">
+<coverage generated="1660245846243" clover="3.2.0">
+  <project timestamp="1660245846244" name="All files">
     <metrics statements="105" coveredstatements="105" conditionals="48" coveredconditionals="48" methods="15" coveredmethods="15" elements="168" coveredelements="168" complexity="0" loc="105" ncloc="105" packages="1" files="10" classes="10"/>
     <file name="containsDuplicate.js" path="/home/ktolliver/Algorithms/containsDuplicate.js">
       <metrics statements="12" coveredstatements="12" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
