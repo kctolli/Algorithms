@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1660182286250" clover="3.2.0">
-  <project timestamp="1660182286250" name="All files">
+<coverage generated="1660245830018" clover="3.2.0">
+  <project timestamp="1660245830018" name="All files">
     <metrics statements="105" coveredstatements="105" conditionals="48" coveredconditionals="48" methods="15" coveredmethods="15" elements="168" coveredelements="168" complexity="0" loc="105" ncloc="105" packages="1" files="10" classes="10"/>
-    <file name="containsDuplicate.js" path="/Users/kctolli/Algorithms/containsDuplicate.js">
+    <file name="containsDuplicate.js" path="/home/ktolliver/Algorithms/containsDuplicate.js">
       <metrics statements="12" coveredstatements="12" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
       <line num="5" count="1" type="stmt"/>
       <line num="6" count="5" type="cond" truecount="2" falsecount="0"/>
@@ -17,7 +17,7 @@
       <line num="19" count="1" type="stmt"/>
       <line num="22" count="1" type="stmt"/>
     </file>
-    <file name="fizzBuzz.js" path="/Users/kctolli/Algorithms/fizzBuzz.js">
+    <file name="fizzBuzz.js" path="/home/ktolliver/Algorithms/fizzBuzz.js">
       <metrics statements="14" coveredstatements="14" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
       <line num="5" count="1" type="stmt"/>
       <line num="6" count="3" type="stmt"/>
@@ -34,7 +34,7 @@
       <line num="21" count="3" type="stmt"/>
       <line num="24" count="1" type="stmt"/>
     </file>
-    <file name="longestCommonPrefix.js" path="/Users/kctolli/Algorithms/longestCommonPrefix.js">
+    <file name="longestCommonPrefix.js" path="/home/ktolliver/Algorithms/longestCommonPrefix.js">
       <metrics statements="17" coveredstatements="17" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
       <line num="5" count="1" type="stmt"/>
       <line num="6" count="4" type="cond" truecount="2" falsecount="0"/>
@@ -54,7 +54,7 @@
       <line num="25" count="2" type="stmt"/>
       <line num="28" count="1" type="stmt"/>
     </file>
-    <file name="mergeTwoLists.js" path="/Users/kctolli/Algorithms/mergeTwoLists.js">
+    <file name="mergeTwoLists.js" path="/home/ktolliver/Algorithms/mergeTwoLists.js">
       <metrics statements="9" coveredstatements="9" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
       <line num="6" count="1" type="stmt"/>
       <line num="7" count="4" type="cond" truecount="4" falsecount="0"/>
@@ -66,14 +66,14 @@
       <line num="14" count="1" type="stmt"/>
       <line num="18" count="1" type="stmt"/>
     </file>
-    <file name="palindrome.js" path="/Users/kctolli/Algorithms/palindrome.js">
+    <file name="palindrome.js" path="/home/ktolliver/Algorithms/palindrome.js">
       <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <line num="5" count="1" type="stmt"/>
       <line num="6" count="4" type="cond" truecount="2" falsecount="0"/>
       <line num="7" count="3" type="stmt"/>
       <line num="10" count="1" type="stmt"/>
     </file>
-    <file name="removeDuplicates.js" path="/Users/kctolli/Algorithms/removeDuplicates.js">
+    <file name="removeDuplicates.js" path="/home/ktolliver/Algorithms/removeDuplicates.js">
       <metrics statements="12" coveredstatements="12" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
       <line num="5" count="1" type="stmt"/>
       <line num="6" count="4" type="cond" truecount="2" falsecount="0"/>
@@ -88,7 +88,7 @@
       <line num="19" count="2" type="stmt"/>
       <line num="22" count="1" type="stmt"/>
     </file>
-    <file name="removeElement.js" path="/Users/kctolli/Algorithms/removeElement.js">
+    <file name="removeElement.js" path="/home/ktolliver/Algorithms/removeElement.js">
       <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <line num="6" count="1" type="stmt"/>
       <line num="7" count="2" type="stmt"/>
@@ -97,7 +97,7 @@
       <line num="11" count="2" type="stmt"/>
       <line num="14" count="1" type="stmt"/>
     </file>
-    <file name="romanToInt.js" path="/Users/kctolli/Algorithms/romanToInt.js">
+    <file name="romanToInt.js" path="/home/ktolliver/Algorithms/romanToInt.js">
       <metrics statements="18" coveredstatements="18" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
       <line num="5" count="1" type="stmt"/>
       <line num="6" count="3" type="stmt"/>
@@ -118,7 +118,7 @@
       <line num="47" count="1" type="stmt"/>
       <line num="53" count="1" type="stmt"/>
     </file>
-    <file name="singleNumber.js" path="/Users/kctolli/Algorithms/singleNumber.js">
+    <file name="singleNumber.js" path="/home/ktolliver/Algorithms/singleNumber.js">
       <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
       <line num="5" count="1" type="stmt"/>
       <line num="6" count="3" type="cond" truecount="2" falsecount="0"/>
@@ -129,7 +129,7 @@
       <line num="13" count="2" type="stmt"/>
       <line num="16" count="1" type="stmt"/>
     </file>
-    <file name="twoSum.js" path="/Users/kctolli/Algorithms/twoSum.js">
+    <file name="twoSum.js" path="/home/ktolliver/Algorithms/twoSum.js">
       <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <line num="6" count="1" type="stmt"/>
       <line num="7" count="3" type="stmt"/>
