@@ -14,12 +14,4 @@ describe('longestCommonPrefix', () => {
     test('test case 3', () => { 
         expect(longestCommonPrefix(["dog"])).toEqual("dog");
     });
-
-    test('test case 4', () => {
-        expect(longestCommonPrefix()).toEqual();
-    });
-
-    test('test case 5', () => {
-        expect(longestCommonPrefix()).toEqual();
-    });
 });

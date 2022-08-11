@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1660180261049" clover="3.2.0">
-  <project timestamp="1660180261049" name="All files">
+<coverage generated="1660180371082" clover="3.2.0">
+  <project timestamp="1660180371082" name="All files">
     <metrics statements="79" coveredstatements="79" conditionals="34" coveredconditionals="34" methods="12" coveredmethods="12" elements="125" coveredelements="125" complexity="0" loc="79" ncloc="79" packages="1" files="8" classes="8"/>
     <file name="containsDuplicate.js" path="/Users/kctolli/Algorithms/containsDuplicate.js">
       <metrics statements="12" coveredstatements="12" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
       <line num="5" count="2" type="stmt"/>
-      <line num="6" count="10" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="8" type="cond" truecount="2" falsecount="0"/>
       <line num="7" count="5" type="stmt"/>
       <line num="10" count="2" type="stmt"/>
       <line num="11" count="5" type="stmt"/>
