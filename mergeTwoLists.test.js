@@ -14,4 +14,8 @@ describe('mergeTwoLists', () => {
     test('test case 3', () => {
         expect(mergeTwoLists([], [0])).toEqual([0]);
     });
+
+    test('test case 3', () => {
+        expect(mergeTwoLists([1], [])).toEqual([1]);
+    });
 });
