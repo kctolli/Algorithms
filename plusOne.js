@@ -4,7 +4,6 @@
  */
 var plusOne = function(digits) {
     digits[digits.length - 1] += 1;
-    console.log(digits);
 
     for (let i = digits.length - 1; i >= 0; i--){
         if (digits[0] >= 10) {

@@ -14,4 +14,8 @@ describe('plusOne', () => {
     test('test case 3', () => {
         expect(plusOne([9,9,9,9])).toEqual([1,0,0,0,0]);
     });
+
+    test('test case 4', () => {
+        expect(plusOne([0])).toEqual([1]);
+    });
 });
