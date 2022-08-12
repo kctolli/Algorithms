@@ -1,5 +1,5 @@
 const { expect } = require('@jest/globals');
-const containsDuplicates = require('./containsDuplicate.js');
+const containsDuplicates = require('./containsDuplicates.js');
 
 describe('containsDuplicates', () => {
 

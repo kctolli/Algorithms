@@ -4,15 +4,7 @@
  * @return {ListNode}
  */
 var mergeTwoLists = function(list1, list2) {
-    if (list1.length === 0 && list2.length === 0) {
-        return [];
-    } else if (list1.length === 0) {
-        return list2;
-    } else if (list2.length === 0) {
-        return list1;
-    } else { 
-        return [...list1, ...list2].sort();
-    }    
+    return [...list1, ...list2].sort();
 };
 
 module.exports = mergeTwoLists;
