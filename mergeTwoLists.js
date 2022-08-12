@@ -11,7 +11,7 @@ var mergeTwoLists = function(list1, list2) {
     } else if (list2.length === 0) {
         return list1;
     } else { 
-        return list1.concat(list2).sort();
+        return [...list1, ...list2].sort();
     }    
 };
 
