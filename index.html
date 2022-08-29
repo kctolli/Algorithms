@@ -12,29 +12,36 @@
         <h1>Algorithms</h1>
         <h2>Leet Code Challenges</hw>
     </header>
-    
+
     <h3>Submitted</h3>
 
-    <ul>
-        <li>Two-Sum</li>
-        <li>Roman to Integer</li>
-        <li>Longest Common Prefix</li>
-        <li>Valid Parentheses</li>
-        <li>Merge Two Sorted Lists</li>
-        <li>Remove Duplicates From Sorted Array</li>
-        <li>Plus One</li>
-        <li>Palindrome Number</li>
-    </ul>
+    <ul id="submit"></ul>
 
-    <footer>
-        <hr/>
-        <p></p>
-        <p id="copy"></p>
-    </footer>
+    <br/><hr/>
+
+    <footer id="copy"></footer>
 
     <script>
-        const year = (new Date()).getFullYear();
-        document.getElementById("copy").innerHTML = `&copy ${year} Kyle Tolliver -- Algorithms`
+        const submitted = [
+            "Two Sum",
+            "Roman to Integer",
+            "Longest Common Prefix",
+            "Valid Parentheses",
+            "Merge Two Sorted Lists",
+            "Remove Duplicates From Sorted Array",
+            "Plus One",
+            "Palindrome Number"
+        ]; 
+
+        let list = document.getElementById("submit");
+  
+        submitted.forEach((item)=>{
+            let li = document.createElement("li");
+            li.innerText = item;
+            list.appendChild(li);
+        })
+
+        document.getElementById("copy").innerHTML = `&copy ${(new Date()).getFullYear()} Kyle Tolliver -- <a href="https://github.com/kctolli/Algorithms">Algorithms</a>`
     </script>
 
 </body>
