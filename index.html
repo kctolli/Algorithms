@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KTolliver - Algorithms</title>
+    <title>Algorithms - KTolliver</title>
     <style>@import url('https://www.styles.ktolliver.org/Algorithms/main.css');</style>
 </head>
 <body>
@@ -34,13 +34,11 @@
             "Palindrome Number",
             "Best Time To Buy And Sell Stock"
         ]; 
-
-        let list = document.getElementById("submit");
-  
+        
         submitted.forEach((item)=>{
             let li = document.createElement("li");
             li.innerText = item;
-            list.appendChild(li);
+            document.getElementById("submit").appendChild(li);
         })
 
         document.getElementById("copy").innerHTML = `&copy ${(new Date()).getFullYear()} Kyle Tolliver -- <a href="https://github.com/kctolli/Algorithms">Algorithms</a>`
